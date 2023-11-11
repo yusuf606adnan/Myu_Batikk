@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myu Batik</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+      /* Style untuk tombol kembali ke atas */
+      .btn-back-to-top {
+          position: fixed;
+          bottom: 40px; /* Jarak dari bawah (sesuaikan sesuai kebutuhan) */
+          left: 40px; /* Jarak dari kanan (sesuaikan sesuai kebutuhan) */
+          z-index: 1000;
+          display: none;
+      }
+  </style>
+
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous"
+  />
+</head>
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: chocolate;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="logoo.PNG" alt="" width="45" height="30" class="d-inline-block align-text-top">
+                <b>Myu Batik</b>
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#About">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Katalog">Katalog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Pricelist">Pricelist</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Testimonial">Testimonial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contact">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Checkout.html">Checkout</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div id="Home" class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="myu batikk.jpeg" class="d-block w-100 " alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="myu batik.jpeg" class="d-block w-100 " alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div id="About" class="container-fluid py-0 my-5">
+        <div class="container pt-5">
+            <div class="row g-5">
+                <div class="col-lg-5 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".3s">
+                    <div class="h-100 position-relative">
+                        <img src="gambar.jpg" class="img-fluid w-75 rounded" alt="" style="margin-bottom: 25%;">
+                        <div class="position-absolute w-75" style="top: 25%; left: 25%;">
+                            <img src="gambar1.jpg" class="img-fluid w-100 rounded" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".5s">
+                    <h1 class="mb-4" style="color:chocolate;">Kami Hadir Menampilkan Koleksi Fashions yang Berkualitas Kami</h1>
+                    <p style="color:  chocolate;">Dapatkan koleksi baju pria keren dengan harga dan mutu terbaik dalam melengkapi kebutuhan fashion pria Anda hanya di Myu Batik. Toko baju online ini berdiri sejak tahun 2022 yang memulai bisnis fashion pria online dari website, dan untuk mempermudah pelanggannya bertransaksi Myu Batik juga hadir dalam bentuk mobile application.</p>
+                    <p class="mb-4" style="color:  chocolate;">Untuk mempermudah transaksi Kamu bisa Download aplikasi mobile Myu Batik di Google Play maupun App Store dengan search keyword Myu Batik. Solusi belanja baju pria, pakaian pria, atau fashion pria dengan harga murah.</p>
+
+                    <div class="container"></div>
+                    <a href="" class="btn rounded-pill px-5 py-3 text-white" data-bs-toggle="modal" data-bs-target="#exampleModal" style="background-color:  chocolate;">Hubungi Kami</a>
+                      <!-- Button trigger modal -->
+              
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Hubungi Kami</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                              <form action="">
+                                  <div class="form-group">
+                                      <label for="">nama</label>
+                                      <input type="text" name="" class="form-control" placeholder="Masukan Nama Anda">
+                                  </div>
+                  
+                                  <div class="form-group">
+                                      <label for="">email</label>
+                                      <input type="email" name="" class="form-control" placeholder="Masukan Email Anda">
+                                  </div>
+                  
+                                  <div class="form-group">
+                                      <label for="">Silahkan Diisi</label>
+                                      <textarea class="form-control" rows="5" placeholder="Silahkan Diisi"></textarea>
+                                  </div>
+                              </form>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section id="Katalog" class="" >
+      <div class="text-center wow bounceInUp pb-3 pt-3" data-wow-delay="0.1s">
+        <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-3 mb-3">Our Sevices</small>
+        <h5 class="display-5 ">What We Offer</h5>
+    </div>
+      <div class="row">
+          <div class="col-md-3">
+              <div class="card m-auto border-0 mt-5" style="width: 18rem; background-color: chocolate;">
+                  <img src="couple.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text text-center">Kemeja batik couple adalah sepasang pakaian batik yang didesain agar pasangan terlihat serasi. Kemeja ini memiliki motif batik yang senada atau saling melengkapi antara pria dan wanita</p>
+                    <a href="#" class="btn btn-primary">Checkout</a>
+                  </div>
+                </div>
+          </div>
+          <div class="col-md-3">
+              <div class="card m-auto border-0 mt-5" style="width: 18rem; background-color:  chocolate;">
+                  <img src="couple1.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text text-center">Kemeja batik couple adalah sepasang pakaian batik yang didesain agar pasangan terlihat serasi. Kemeja ini memiliki motif batik yang senada atau saling melengkapi antara pria dan wanita</p>
+                    <a href="#" class="btn btn-primary">Checkout</a>
+                  </div>
+                </div>
+          </div>
+          <div class="col-md-3">
+              <div class="card m-auto border-0 mt-5" style="width: 18rem; background-color:  chocolate;">
+                  <img src="couple2.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text text-center">Kemeja batik couple adalah sepasang pakaian batik yang didesain agar pasangan terlihat serasi. Kemeja ini memiliki motif batik yang senada atau saling melengkapi antara pria dan wanita</p>
+                    <a href="#" class="btn btn-primary">Checkout</a>
+                  </div>
+                </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card m-auto border-0 mt-5" style="width: 18rem; background-color:  chocolate;">
+                <img src="gambar.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-center">Kemeja batik couple adalah sepasang pakaian batik yang didesain agar pasangan terlihat serasi. Kemeja ini memiliki motif batik yang senada atau saling melengkapi antara pria dan wanita</p>
+                  <a href="#" class="btn btn-primary">Checkout</a>
+                </div>
+              </div>
+        </div>
+          
+        </div>
+
+        <div class="row ">
+          <div class="col-md-3">
+              <div class="card m-auto border-0 mt-5" style="width: 18rem; background-color:  chocolate;">
+                  <img src="Batik garuda.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Kemeja batik Garuda adalah pakaian tradisional Indonesia yang dihiasi dengan motif batik khas, termasuk gambar burung garuda yang merupakan simbol nasional Indonesia</p>
+                    <a href="#" class="btn btn-primary">Checkout</a>
+                  </div>
+                </div>
+          </div>
+          <div class="col-md-3">
+              <div class="card m-auto border-0 mt-5" style="width: 18rem; background-color: chocolate;">
+                  <img src="batik wayang.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Kemeja batik wayang adalah pakaian tradisional Indonesia yang dihiasi dengan motif batik yang terinspirasi oleh tokoh-tokoh wayang kulit, seperti Semar, Arjuna, atau Rama.</p>
+                    <a href="#" class="btn btn-primary">Checkout</a>
+                  </div>
+                </div>
+          </div>
+          <div class="col-md-3">
+              <div class="card m-auto border-0 mt-5" style="width: 18rem; background-color: chocolate;">
+                  <img src="kemeja motif.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text text-center">Kemeja motif adalah pakaian yang dihiasi dengan berbagai pola atau desain yang berulang, yang dapat berupa garis-garis, bunga-bunga, geometri, atau gambar-gambar lainnya.</p>
+                    <a href="#" class="btn btn-primary">Checkout</a>
+                  </div>
+                </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card m-auto border-0 mt-5" style="width: 18rem; background-color:  chocolate;">
+                <img src="koko.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-center">Kemeja koko adalah pakaian tradisional lelaki yang sering dipakai dalam berbagai acara formal dan ritual keagamaan di berbagai negara, terutama di Indonesia dan negara-negara sekitarnya.</p>
+                  <a href="#" class="btn btn-primary">Checkout</a>
+                </div>
+              </div>
+        </div>
+          
+        </div>
+
+    </section>
+
+
+ 
+      <div id="Pricelist" class="container mt-5">
+        <h2>Pricelist</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama Produk</th>
+                    <th>Harga</th>
+                    <th>Stok</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Kemeja Batik Garuda</td>
+                    <td>Rp 50,000</td>
+                    <td>100 pcs</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Kemeja Batik Wayang</td>
+                    <td>Rp 50,000</td>
+                    <td>500 pcs</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Kemeja polos</td>
+                    <td>Rp 35,000</td>
+                    <td>115 pcs</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Kemeja Garis</td>
+                    <td>Rp 45,000</td>
+                    <td>95 pcs</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Kemeja Motif</td>
+                    <td>Rp 45,000</td>
+                    <td>79 pcs</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Kemeja Koko</td>
+                    <td>Rp 45,000</td>
+                    <td>150 pcs</td>
+                </tr>
+                <tr>
+                  <td>7</td>
+                  <td>Kemeja Batik couple</td>
+                  <td>Rp 150,000</td>
+                  <td>150 pcs</td>
+              </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+      <div class="row py-3">
+      <div class="col-md-4">
+      <video controls class="">
+        <source src="Coba deh dateng ke kondangan pake laskala haikal, bismilla dijamin pulang bawa gandengan 😁✌️.mp4" />
+      </video>
+    </div>
+    <div class="col-md-8">
+      <h3 class="text-center mb-5 ">Toko Baju Pria Online Termurah di Indonesia, Solusi belanja baju cowok murah Dapatkan koleksimu </h3>
+      <p class="text-center mb-4">Dapatkan koleksi baju pria keren dengan harga dan mutu terbaik dalam melengkapi kebutuhan fashion pria Anda hanya di Myu Batik. Toko baju online ini berdiri sejak tahun 2010 yang memulai bisnis fashion pria online dari website, dan untuk mempermudah pelanggannya bertransaksi Myu Batik juga hadir dalam bentuk mobile application. Untuk mempermudah transaksi Kamu bisa Download aplikasi mobile Myu Batik di Google Play maupun App Store dengan search keyword Myu Batik</p>
+      <p class="text-center mb-4 ">Toko baju online ini menyediakan berbagai macam pakaian pria, dengan trend dan style dan model baju pria terbaru 2023. Mulai dari kaos pria, kemeja pria, kemeja polos, Batik pria, kemeja batik. Fashion seolah telah menjadi kebutuhan dan gaya hidup. Toko pakaian pria ini berupaya menjawab semua kebutuhan fashion pria, dengan menyediakan beragam pilihan pakaian pria remaja dan dewasa, dan beraneka pilihan yang selalu mengikuti perkembangan dalam dunia fashion pria.</p>
+      <p class="text-center mb-5"> Kita selalu mengikuti perkembangan trend fashion pria 2023, yang kini sedang ngetrend kaos printing, kaos longline t-shirt, kaos raglan, celana jeans ripped, celana biker jeans, celana bahan, celana formal, jeans ankle zip, kemeja flanel pria, kemeja polos pria, kemeja hawaii, baju imlek pria, baju natal cowok, kemeja revere collar, vest/rompi formal, kemeja grandad, jaket bomber, kemeja denim, baju batik atau kemeja batik. Saat memasuki bulan suci Ramadhan toko baju pria ini juga menyediakan fashion pria baju muslim atau baju koko</p>
+    </div>
+  </div>
+      
+  
+
+
+    <section id="Testimonial" class=""  >
+      <div class="text-center wow bounceInUp pb-3 pt-3" data-wow-delay="0.1s">
+        <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-3 mb-3">Testimonial</small>
+        <h5 class="display-5 mb-5">What Our Customers says!</h5>
+    </div>
+      <div class="row">
+          <div class="col-md-4">
+              <div class="card m-auto border-0" style="width: 18rem;">
+                  <img src="testi 1.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                  </div>
+                </div>
+          </div>
+          <div class="col-md-4">
+              <div class="card m-auto border-0" style="width: 18rem;">
+                  <img src="test1 4.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                  </div>
+                </div>
+          </div>
+          <div class="col-md-4">
+              <div class="card m-auto border-0" style="width: 18rem;">
+                  <img src="testi2.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                  </div>
+                </div>
+          </div>
+          
+        </div>
+       
+          <div class="row mt-5">
+              <div class="col-md-4">
+                  <div class="card m-auto border-0" style="width: 18rem;">
+                      <img src="testi3.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                      </div>
+                    </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="card m-auto border-0" style="width: 18rem;">
+                      <img src="testi5.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                      </div>
+                    </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="card m-auto border-0" style="width: 18rem;">
+                      <img src="testi6.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                      </div>
+                    </div>
+              </div>
+              
+            </div>
+  
+        </section>
+
+       
+
+
+<div id="Contact" class="container-fluid py-5  " style="background-color: chocolate;" >
+    <div class="row">
+        <div class="col-md-4">
+          <h2>Lokasi Kami</h2>
+         <p> Ds. Kertijayan Gg 6 Belakang Masjid An-nur Kec. Buaran Kab. Pekalongan Jawa Tengah</p>
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1260.3899769706632!2d109.65396778610283!3d-6.927393006705168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1698819466704!5m2!1sid!2sid" width="250" height="170" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="col-md-4">
+            <h3>Contact</h3>
+            <a href="https://api.whatsapp.com/send?phone=6285955173352&text=Halo,silahkan%20kalo%20ada%20yang%20ingin%20ditanyakan">
+                <svg xmlns="http://www.w3.org/2000/svg" width="56" height="38" viewBox="0 0 256 258"><defs><linearGradient id="logosWhatsappIcon0" x1="50%" x2="50%" y1="100%" y2="0%"><stop offset="0%" stop-color="#1FAF38"/><stop offset="100%" stop-color="#60D669"/></linearGradient><linearGradient id="logosWhatsappIcon1" x1="50%" x2="50%" y1="100%" y2="0%"><stop offset="0%" stop-color="#F9F9F9"/><stop offset="100%" stop-color="#FFF"/></linearGradient></defs><path fill="url(#logosWhatsappIcon0)" d="M5.463 127.456c-.006 21.677 5.658 42.843 16.428 61.499L4.433 252.697l65.232-17.104a122.994 122.994 0 0 0 58.8 14.97h.054c67.815 0 123.018-55.183 123.047-123.01c.013-32.867-12.775-63.773-36.009-87.025c-23.23-23.25-54.125-36.061-87.043-36.076c-67.823 0-123.022 55.18-123.05 123.004"/><path fill="url(#logosWhatsappIcon1)" d="M1.07 127.416c-.007 22.457 5.86 44.38 17.014 63.704L0 257.147l67.571-17.717c18.618 10.151 39.58 15.503 60.91 15.511h.055c70.248 0 127.434-57.168 127.464-127.423c.012-34.048-13.236-66.065-37.3-90.15C194.633 13.286 162.633.014 128.536 0C58.276 0 1.099 57.16 1.071 127.416Zm40.24 60.376l-2.523-4.005c-10.606-16.864-16.204-36.352-16.196-56.363C22.614 69.029 70.138 21.52 128.576 21.52c28.3.012 54.896 11.044 74.9 31.06c20.003 20.018 31.01 46.628 31.003 74.93c-.026 58.395-47.551 105.91-105.943 105.91h-.042c-19.013-.01-37.66-5.116-53.922-14.765l-3.87-2.295l-40.098 10.513l10.706-39.082Z"/><path fill="#FFF" d="M96.678 74.148c-2.386-5.303-4.897-5.41-7.166-5.503c-1.858-.08-3.982-.074-6.104-.074c-2.124 0-5.575.799-8.492 3.984c-2.92 3.188-11.148 10.892-11.148 26.561c0 15.67 11.413 30.813 13.004 32.94c1.593 2.123 22.033 35.307 54.405 48.073c26.904 10.609 32.379 8.499 38.218 7.967c5.84-.53 18.844-7.702 21.497-15.139c2.655-7.436 2.655-13.81 1.859-15.142c-.796-1.327-2.92-2.124-6.105-3.716c-3.186-1.593-18.844-9.298-21.763-10.361c-2.92-1.062-5.043-1.592-7.167 1.597c-2.124 3.184-8.223 10.356-10.082 12.48c-1.857 2.129-3.716 2.394-6.9.801c-3.187-1.598-13.444-4.957-25.613-15.806c-9.468-8.442-15.86-18.867-17.718-22.056c-1.858-3.184-.199-4.91 1.398-6.497c1.431-1.427 3.186-3.719 4.78-5.578c1.588-1.86 2.118-3.187 3.18-5.311c1.063-2.126.531-3.986-.264-5.579c-.798-1.593-6.987-17.343-9.819-23.64"/></svg>085955173352
+            </a><hr>
+            <a href="https://www.instagram.com/myubatik/"><svg xmlns="http://www.w3.org/2000/svg" width="56" height="38" viewBox="0 0 256 256"><g fill="none"><rect width="256" height="256" fill="url(#skillIconsInstagram0)" rx="60"/><rect width="256" height="256" fill="url(#skillIconsInstagram1)" rx="60"/><path fill="#fff" d="M128.009 28c-27.158 0-30.567.119-41.233.604c-10.646.488-17.913 2.173-24.271 4.646c-6.578 2.554-12.157 5.971-17.715 11.531c-5.563 5.559-8.98 11.138-11.542 17.713c-2.48 6.36-4.167 13.63-4.646 24.271c-.477 10.667-.602 14.077-.602 41.236s.12 30.557.604 41.223c.49 10.646 2.175 17.913 4.646 24.271c2.556 6.578 5.973 12.157 11.533 17.715c5.557 5.563 11.136 8.988 17.709 11.542c6.363 2.473 13.631 4.158 24.275 4.646c10.667.485 14.073.604 41.23.604c27.161 0 30.559-.119 41.225-.604c10.646-.488 17.921-2.173 24.284-4.646c6.575-2.554 12.146-5.979 17.702-11.542c5.563-5.558 8.979-11.137 11.542-17.712c2.458-6.361 4.146-13.63 4.646-24.272c.479-10.666.604-14.066.604-41.225s-.125-30.567-.604-41.234c-.5-10.646-2.188-17.912-4.646-24.27c-2.563-6.578-5.979-12.157-11.542-17.716c-5.562-5.562-11.125-8.979-17.708-11.53c-6.375-2.474-13.646-4.16-24.292-4.647c-10.667-.485-14.063-.604-41.23-.604h.031Zm-8.971 18.021c2.663-.004 5.634 0 8.971 0c26.701 0 29.865.096 40.409.575c9.75.446 15.042 2.075 18.567 3.444c4.667 1.812 7.994 3.979 11.492 7.48c3.5 3.5 5.666 6.833 7.483 11.5c1.369 3.52 3 8.812 3.444 18.562c.479 10.542.583 13.708.583 40.396c0 26.688-.104 29.855-.583 40.396c-.446 9.75-2.075 15.042-3.444 18.563c-1.812 4.667-3.983 7.99-7.483 11.488c-3.5 3.5-6.823 5.666-11.492 7.479c-3.521 1.375-8.817 3-18.567 3.446c-10.542.479-13.708.583-40.409.583c-26.702 0-29.867-.104-40.408-.583c-9.75-.45-15.042-2.079-18.57-3.448c-4.666-1.813-8-3.979-11.5-7.479s-5.666-6.825-7.483-11.494c-1.369-3.521-3-8.813-3.444-18.563c-.479-10.542-.575-13.708-.575-40.413c0-26.704.096-29.854.575-40.396c.446-9.75 2.075-15.042 3.444-18.567c1.813-4.667 3.983-8 7.484-11.5c3.5-3.5 6.833-5.667 11.5-7.483c3.525-1.375 8.819-3 18.569-3.448c9.225-.417 12.8-.542 31.437-.563v.025Zm62.351 16.604c-6.625 0-12 5.37-12 11.996c0 6.625 5.375 12 12 12s12-5.375 12-12s-5.375-12-12-12v.004Zm-53.38 14.021c-28.36 0-51.354 22.994-51.354 51.355c0 28.361 22.994 51.344 51.354 51.344c28.361 0 51.347-22.983 51.347-51.344c0-28.36-22.988-51.355-51.349-51.355h.002Zm0 18.021c18.409 0 33.334 14.923 33.334 33.334c0 18.409-14.925 33.334-33.334 33.334c-18.41 0-33.333-14.925-33.333-33.334c0-18.411 14.923-33.334 33.333-33.334Z"/><defs><radialGradient id="skillIconsInstagram0" cx="0" cy="0" r="1" gradientTransform="matrix(0 -253.715 235.975 0 68 275.717)" gradientUnits="userSpaceOnUse"><stop stop-color="#FD5"/><stop offset=".1" stop-color="#FD5"/><stop offset=".5" stop-color="#FF543E"/><stop offset="1" stop-color="#C837AB"/></radialGradient><radialGradient id="skillIconsInstagram1" cx="0" cy="0" r="1" gradientTransform="matrix(22.25952 111.2061 -458.39518 91.75449 -42.881 18.441)" gradientUnits="userSpaceOnUse"><stop stop-color="#3771C8"/><stop offset=".128" stop-color="#3771C8"/><stop offset="1" stop-color="#60F" stop-opacity="0"/></radialGradient></defs></g></svg>Myu Batik
+            </a><hr>
+            <a href="https://www.facebook.com/profile.php?id=100081194529428"><svg xmlns="http://www.w3.org/2000/svg" width="56" height="38" viewBox="0 0 256 256"><path fill="#1877F2" d="M256 128C256 57.308 198.692 0 128 0C57.308 0 0 57.307 0 128c0 63.888 46.808 116.843 108 126.445V165H75.5v-37H108V99.8c0-32.08 19.11-49.8 48.347-49.8C170.352 50 185 52.5 185 52.5V84h-16.14C152.958 84 148 93.867 148 103.99V128h35.5l-5.675 37H148v89.445c61.192-9.602 108-62.556 108-126.445"/><path fill="#FFF" d="m177.825 165l5.675-37H148v-24.01C148 93.866 152.959 84 168.86 84H185V52.5S170.352 50 156.347 50C127.11 50 108 67.72 108 99.8V128H75.5v37H108v89.445A128.959 128.959 0 0 0 128 256a128.9 128.9 0 0 0 20-1.555V165h29.825"/></svg>Myu Batik</a>
+        </div>
+        <div class="col-md-4">
+          <h4 class="mb-4">Social Gallery</h4>
+                            <div class="row g-2">
+                                <div class="col-4">
+                                     <img src="kemeja polos.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                </div>
+                                <div class="col-4">
+                                     <img src="kemeja motif.png" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                </div>
+                                <div class="col-4">
+                                     <img src="koko.webp" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                </div>
+                                <div class="col-4">
+                                     <img src="couple.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                </div>
+                                <div class="col-4">
+                                     <img src="couple1.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                </div>
+                                <div class="col-4">
+                                     <img src="couple2.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+
+        
+      
+     
+        
+       
+
+       
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/654b46d7f2439e1631ed0290/1hen0pfu8';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+
+
+
+ <button class="btn btn-success btn-back-to-top" id="back-to-top" aria-label="Kembali ke atas">
+  <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><g fill="none" stroke-linejoin="round" stroke-width="4"><path fill="#2F88FF" stroke="#000" d="M24 44C35.0457 44 44 35.0457 44 24C44 12.9543 35.0457 4 24 4C12.9543 4 4 12.9543 4 24C4 35.0457 12.9543 44 24 44Z"/><path stroke="#fff" stroke-linecap="round" d="M24 33.5V15.5"/><path stroke="#fff" stroke-linecap="round" d="M33 24.5L24 15.5L15 24.5"/></g></svg>
+</button>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+<script>
+   
+    const backToTopButton = document.getElementById('back-to-top');
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 300) {
+            backToTopButton.style.display = 'block';
+        } else {
+            backToTopButton.style.display = 'none';
+        }
+    });
+
+    backToTopButton.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+</script>
+
+
+    </div>
+</div>
+
+
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
